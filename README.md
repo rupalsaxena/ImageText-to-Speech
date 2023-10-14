@@ -2,7 +2,8 @@
 This project aims to support individuals with varying degrees of visual impairment, enabling them to access textual information contained within images. Shown below is the pipeline of this project:
 
 
-TODO: ADD workflow picture here
+![img](https://github.com/rupalsaxena/ImageText-to-Speech/blob/main/plots/workflow.png)
+
 ## Scene-Text Detection
 For Scene-Text Detection, we have used [TextOCR dataset](https://textvqa.org/textocr/). Please download it from [here](https://uzh-my.sharepoint.com/personal/konstantina_timoleon_uzh_ch/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fkonstantina%5Ftimoleon%5Fuzh%5Fch%2FDocuments%2F3rd%20Semester%2FEssentials%20in%20Text%20and%20Speech%20Processing%2Fscene%5Ftext%5Fdetection%5Fdata&ga=1). 
 We compared three OCR tools:
