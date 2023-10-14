@@ -5,7 +5,7 @@ import easyocr
 from text_to_speech.runner import get_speech
 
 # img path
-img_fn = "C:/Users/Nadia Timoleon/Documents/GitHub/ImageText-to-Speech/scene_text_test_img.jpg"
+img_fn = "path_of_test_img"
 
 # load image
 image = Image.open(img_fn)

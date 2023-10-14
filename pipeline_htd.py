@@ -5,8 +5,8 @@ from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 from text_to_speech.runner import get_speech
 
 # img path, model path
-img_fn = "/Users/rupalsaxena/Documents/GitHub/ImageText-to-Speech/handwritten_test_img.png"
-model_fn = "/Users/rupalsaxena/Documents/GitHub/ImageText-to-Speech/trocr_finetuned_model"
+img_fn = "path_of_test_img"
+model_fn = "path_of_downloaded_model"
 
 # load image
 image = Image.open(img_fn).convert("RGB")
