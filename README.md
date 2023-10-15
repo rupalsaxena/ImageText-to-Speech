@@ -5,12 +5,14 @@ This project aims to support individuals with varying degrees of visual impairme
 ![img](https://github.com/rupalsaxena/ImageText-to-Speech/blob/main/plots/workflow.png)
 
 ## Scene-Text Detection
-For Scene-Text Detection, we have used [TextOCR dataset](https://textvqa.org/textocr/). Please download the data from [here](https://uzh-my.sharepoint.com/personal/konstantina_timoleon_uzh_ch/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fkonstantina%5Ftimoleon%5Fuzh%5Fch%2FDocuments%2F3rd%20Semester%2FEssentials%20in%20Text%20and%20Speech%20Processing%2Fscene%5Ftext%5Fdetection%5Fdata&ga=1). 
+For Scene-Text Detection, we have used [TextOCR dataset](https://textvqa.org/textocr/). Please download the data from [here](https://uzh-my.sharepoint.com/personal/konstantina_timoleon_uzh_ch/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fkonstantina%5Ftimoleon%5Fuzh%5Fch%2FDocuments%2F3rd%20Semester%2FEssentials%20in%20Text%20and%20Speech%20Processing%2Fscene%5Ftext%5Fdetection%5Fdata&ga=1).
 We compared three OCR tools:
 
 1. [pytesseract](https://pypi.org/project/pytesseract/)
 2. [EasyOCR](https://www.jaided.ai/easyocr/tutorial/)
 3. [keras-ocr](https://keras-ocr.readthedocs.io/en/latest/)
+
+The data folder also includes our results on text detection and method comparison in pickle format which can be loaded for inspection in the Scene-Text Detection notebook.
 
 ## Handwritten-Text Detection
 For Handwritten-Text Detection, we used [IAM Handwriting Database](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database#icdar02). Please download the data from [here](https://drive.google.com/drive/folders/1wyugoG02loRRZxBy1lSlxGP9iUIylUof). For training, we fine-tuned HuggingFace [TrOCR base handwritten model](https://arxiv.org/abs/2109.10282) with IAM Handwriting Database. 
