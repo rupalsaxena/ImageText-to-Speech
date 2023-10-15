@@ -4,6 +4,8 @@ This project aims to support individuals with varying degrees of visual impairme
 
 ![img](https://github.com/rupalsaxena/ImageText-to-Speech/blob/main/plots/workflow.png)
 
+For each mode, we have developed a jupyter notebook to provide a more interactive overview of our workflow.
+
 ## Scene-Text Detection
 For Scene-Text Detection, we have used [TextOCR dataset](https://textvqa.org/textocr/). Please download the data from [here](https://uzh-my.sharepoint.com/personal/konstantina_timoleon_uzh_ch/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fkonstantina%5Ftimoleon%5Fuzh%5Fch%2FDocuments%2F3rd%20Semester%2FEssentials%20in%20Text%20and%20Speech%20Processing%2Fscene%5Ftext%5Fdetection%5Fdata&ga=1).
 We compared three OCR tools:
@@ -23,6 +25,8 @@ Trained model can be downloaded from [here](https://drive.google.com/drive/folde
 For Text-to-Speech Conversion, we used Google Text-to-Speech ([gTTS](https://gtts.readthedocs.io/en/latest/)) to tranform identified text into speech.
 
 ## Pipelines
+We provide two Python scripts, with the complete, end-to-end pipeline for each text-detection pipeline.
+
 1. Scene-Text-Images to Speech Conversion: Testing pipeline can be found here [here](https://github.com/rupalsaxena/ImageText-to-Speech/blob/main/pipeline_std.py)
 
 2. Handwritten-Text-Images to Speech Conversion: Testing pipeline can be found here [here](https://github.com/rupalsaxena/ImageText-to-Speech/blob/main/pipeline_htd.py)
